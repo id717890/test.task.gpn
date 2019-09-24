@@ -316,12 +316,20 @@ namespace Oil.Dal.Migrations
             migrationBuilder.InsertData(
                 table: "Wells",
                 columns: new[] { "Id", "Altitude", "CompanyId", "FieldId", "Name", "ShopId", "WellTypeId", "ZabF", "ZabI" },
-                values: new object[] { 1L, 100L, 1L, 1L, "10010", 3L, 1L, 1315L, 1300L });
-
-            migrationBuilder.InsertData(
-                table: "Wells",
-                columns: new[] { "Id", "Altitude", "CompanyId", "FieldId", "Name", "ShopId", "WellTypeId", "ZabF", "ZabI" },
-                values: new object[] { 2L, 10L, 1L, 1L, "100Р", 3L, 2L, 2002L, 1988L });
+                values: new object[,]
+                {
+                    { 1L, 100L, 1L, 1L, "10010", 3L, 1L, 1315L, 1300L },
+                    { 2L, 55L, 1L, 1L, "100Р", 3L, 2L, 2002L, 1988L },
+                    { 3L, 232L, 1L, 2L, "101Р", 4L, 2L, 2002L, 1911L },
+                    { 4L, 1L, 2L, 4L, "1В", 1L, 2L, 2002L, 1911L },
+                    { 6L, 33L, 2L, 5L, "111", 1L, 2L, 2002L, 1933L },
+                    { 7L, 44L, 2L, 5L, "20089", 1L, 2L, 2002L, 1944L },
+                    { 5L, 23L, 2L, 4L, "456", 2L, 2L, 2002L, 1922L },
+                    { 8L, 55L, 2L, 6L, "49", 2L, 2L, 2002L, 1955L },
+                    { 9L, 66L, 4L, 7L, "1011", 6L, 2L, 2002L, 1966L },
+                    { 10L, 77L, 4L, 8L, "2345", 6L, 2L, 2002L, 1966L },
+                    { 11L, 88L, 4L, 8L, "99Н", 6L, 2L, 2002L, 1977L }
+                });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",

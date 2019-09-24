@@ -397,7 +397,7 @@ namespace Oil.Dal.Migrations
                         new
                         {
                             Id = 2L,
-                            Altitude = 10L,
+                            Altitude = 55L,
                             CompanyId = 1L,
                             FieldId = 1L,
                             Name = "100Р",
@@ -405,6 +405,114 @@ namespace Oil.Dal.Migrations
                             WellTypeId = 2L,
                             ZabF = 2002L,
                             ZabI = 1988L
+                        },
+                        new
+                        {
+                            Id = 3L,
+                            Altitude = 232L,
+                            CompanyId = 1L,
+                            FieldId = 2L,
+                            Name = "101Р",
+                            ShopId = 4L,
+                            WellTypeId = 2L,
+                            ZabF = 2002L,
+                            ZabI = 1911L
+                        },
+                        new
+                        {
+                            Id = 4L,
+                            Altitude = 1L,
+                            CompanyId = 2L,
+                            FieldId = 4L,
+                            Name = "1В",
+                            ShopId = 1L,
+                            WellTypeId = 2L,
+                            ZabF = 2002L,
+                            ZabI = 1911L
+                        },
+                        new
+                        {
+                            Id = 5L,
+                            Altitude = 23L,
+                            CompanyId = 2L,
+                            FieldId = 4L,
+                            Name = "456",
+                            ShopId = 2L,
+                            WellTypeId = 2L,
+                            ZabF = 2002L,
+                            ZabI = 1922L
+                        },
+                        new
+                        {
+                            Id = 6L,
+                            Altitude = 33L,
+                            CompanyId = 2L,
+                            FieldId = 5L,
+                            Name = "111",
+                            ShopId = 1L,
+                            WellTypeId = 2L,
+                            ZabF = 2002L,
+                            ZabI = 1933L
+                        },
+                        new
+                        {
+                            Id = 7L,
+                            Altitude = 44L,
+                            CompanyId = 2L,
+                            FieldId = 5L,
+                            Name = "20089",
+                            ShopId = 1L,
+                            WellTypeId = 2L,
+                            ZabF = 2002L,
+                            ZabI = 1944L
+                        },
+                        new
+                        {
+                            Id = 8L,
+                            Altitude = 55L,
+                            CompanyId = 2L,
+                            FieldId = 6L,
+                            Name = "49",
+                            ShopId = 2L,
+                            WellTypeId = 2L,
+                            ZabF = 2002L,
+                            ZabI = 1955L
+                        },
+                        new
+                        {
+                            Id = 9L,
+                            Altitude = 66L,
+                            CompanyId = 4L,
+                            FieldId = 7L,
+                            Name = "1011",
+                            ShopId = 6L,
+                            WellTypeId = 2L,
+                            ZabF = 2002L,
+                            ZabI = 1966L
+                        },
+                        new
+                        {
+                            Id = 10L,
+                            Altitude = 77L,
+                            CompanyId = 4L,
+                            FieldId = 8L,
+                            Name = "2345",
+                            ShopId = 6L,
+                            WellTypeId = 2L,
+                            ZabF = 2002L,
+                            ZabI = 1966L
+                        },
+                        new
+                        {
+                            Id = 11L,
+                            Altitude = 88L,
+                            CompanyId = 4L,
+                            FieldId = 8L,
+                            Name = "99Н",
+                            ShopId = 6L,
+                            WellTypeId = 2L,
+                            ZabF = 2002L,
+                            ZabI = 1977L
                         });
                 });
 
